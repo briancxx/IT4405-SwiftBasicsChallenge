@@ -30,6 +30,8 @@ if(sample1 == sample2) {
 }
 
 if(heartRate >= 40 && heartRate <= 80) {
+    print("Heart rate is normal.")
+} else {
     print("Heart rate is not normal.")
 }
 
@@ -39,7 +41,6 @@ if(deposits >= 100000000) {
     print("Sorry you are so poor.")
 }
 
-// Double check
 var force = mass * acceleration
 
 print("force = \(force)")
@@ -69,7 +70,7 @@ for i in 5...10 {
     print("i = \(i)")
 }
 
-var age = 0
+var age:Int = 0
 while age < 6 {
     print("age = \(age)")
     age = age + 1
